@@ -18,7 +18,7 @@ public class Configuracao {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.navigate().to("https://www.youtube.com/");
+		driver.navigate().to("https://www.saucedemo.com");
 	}
 
 	public static WebDriver getDriver() {
