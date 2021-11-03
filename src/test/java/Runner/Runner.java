@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features   ="src/test/java/Feature",
 	glue       = {""},
-		tags       = "@can",
+		tags       = "@CT001",
 		monochrome = false, 
 		dryRun     = false)
 
