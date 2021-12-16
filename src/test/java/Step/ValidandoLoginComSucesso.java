@@ -4,13 +4,14 @@ import Page.LoginPageComSucesso;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.pt.Dado;
 
 public class ValidandoLoginComSucesso {
 	
 	LoginPageComSucesso loginPage = new LoginPageComSucesso();
 		
 	
-	@Given("que o usuario acesse a tela de login")
+	@Dado("que o usuario acesse a tela de login")
 	public void que_o_usuario_estar_na_tela_de_login() throws Throwable {
 		loginPage.validarSwagLabsHome();
 	}

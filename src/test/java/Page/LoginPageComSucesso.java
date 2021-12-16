@@ -2,26 +2,17 @@ package Page;
 
 import static org.junit.Assert.assertEquals;
 
-import java.io.File;
-import java.util.concurrent.TimeUnit;
-
-import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Map.LoginElementMap;
-import Setup.Configuracao;
+import Setup.TestRule;
 
 public class LoginPageComSucesso extends LoginElementMap{
 	static WebDriver driver;
 	
 	public LoginPageComSucesso() {
-		PageFactory.initElements(Configuracao.getDriver(), this);
+PageFactory.initElements(TestRule.getDriver(), this);
 	}
 	
 	
